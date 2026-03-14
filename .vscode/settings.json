@@ -1,0 +1,12 @@
+{
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, .npmrc",
+        "main.js": "main.js.map, main.min.js, main.d.ts",
+        "javascript/*": ".js, .ts, .njs"
+    },
+    "material-icon-theme.files.associations": {
+        "*.njs": "javascript"
+    }
+}
